@@ -69,8 +69,7 @@ void Raytracer::setWidthHeight(unsigned width, unsigned height)
 	m_height = height;
 }
 
-// Function to sample a new path for MLT.
-// This time I used radiance() (paste training), but anything is fine.
+//Sample new path
 PathSample generate_new_path(Camera &camera, const int width, const int height, MLT &mlt)
 {
 
